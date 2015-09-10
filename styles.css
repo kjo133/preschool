@@ -1,0 +1,292 @@
+@charset "UTF-8";
+/* CSS Document */
+html, body {
+	font-size:95%;
+	font-family:"Trebuchet MS", Arial, Helvetica, sans-serif;
+	margin:0; padding:0;
+	}
+
+body {
+	tbackground:url(images/backgroundThread.jpg) #a1aeb6 repeat-x;
+	background-color: #a1aeb6;
+	}
+
+a {
+	cursor:pointer;
+	outline:none;
+	}
+a:hover {color:black}
+
+.clear {clear:both;}
+
+.blue {color: #06C}
+.gray {color: #a1aeb6;}
+
+.span-580 {float:left; width: 580px;}
+.span-600 {float:left; width: 600px;}
+.span-760 {float:left; width: 760px;}
+.col1, .col2 {width: 280px; padding-right: 60px; border: solid blue;}
+.col1 {float: left}
+.col2 {float: left}
+.small {font-size: .8em}
+.verySmall {font-size: .6em}
+
+.sidebar {
+	float: left;
+	width: 150px;
+	padding: 0 5px 0 20px;
+	min-height: 100px;
+	tborder: 1px solid red;
+	}
+
+.extras {display: none}
+	
+p {
+	color: black;
+	margin: 0 0 15px 0;
+	line-height: 1.5;
+	}
+	
+ul {margin: 0 0 10px 15px; padding: 0;}
+li {margin: 0; padding: 0; list-style-position:outside; color: #666;}
+	
+h2, h3 {margin: 5px 0; padding: 0; color:#06C}
+
+#downloads p {
+	background:url(images/document_icon.gif) no-repeat left;
+	margin: 10px 0;
+	padding: 10px 0 10px 50px;
+	border-bottom: 1px solid #CCC;
+	}
+
+#pageContainer {
+	margin: 20px auto 0 auto;
+	padding: 0;
+	width: 915px;
+	position: relative;
+	}
+	
+#header {
+	background:url(images/headerBkgd.jpg) no-repeat;
+	height: 163px;
+	margin: 10px 0 0 0;
+	padding: 40px 0 0 150px;
+	border: 1px solid red;
+	overflow: hidden;
+
+	}
+	
+#header h1#title {
+	float: left; width: 300px;	
+	font-size: 1.8em;
+	margin: -5px 0 0 0; padding: 0;
+	}
+#header h3#bibleVerse {
+	float: left;
+	width: 320px;
+	padding: 30px 0 0 40px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-style:italic;
+	font-size: .9em;
+	color:#888;
+	text-align: right;
+	}
+
+#menuBar {
+	float: left;
+	width: 132px;
+	position: relative;
+	}
+	
+#menuBar a, #menuBar a:visited {color: inherit; text-decoration: none;}
+
+#menuBar ul {margin: 0; padding: 0}
+
+#menuBar li {
+	text-decoration:none;
+	list-style:none;
+	border-bottom: 1px solid white;
+	font-size: 1.2em;
+	color:#000;
+	padding: 10px 0 5px 10px;
+	}
+	
+#menubar a {
+	display:block;
+	margin: 0;
+	width: 203px; height: 19px;
+	font-size: 1.2em;
+	float: left;
+	text-align:center;
+	border-right: 1px solid #999;
+	padding: 8px;
+	overflow:hidden;
+	background: url(images/menubarGradients.jpg) repeat-x;
+}
+
+#contentContainer {
+	margin: 0 0 0 0;
+	position: relative;
+	
+	}
+
+#crossIcon {
+	position: absolute;
+	right: 20px;
+	top: -150px;
+	}
+
+
+
+#facilities #photo 
+	{
+	height: 400px;
+	border: 1px solid black;
+	}
+
+
+#content {
+	float: left;
+	width: 760px;
+	padding: 0 0 10px 20px ;
+	tborder: 1px solid black;
+	}
+
+
+	
+
+#announcements {padding-top: 40px;}
+#announcements p {text-align:left;}
+	
+#footer {
+	height: 210px;
+	background: url(images/footerBkgd.jpg) 0 0 no-repeat;
+	
+	}
+	
+#address {
+	float: left;
+	width: 255px;
+	padding: 75px 30px 0 400px;
+	
+	}
+
+#footer ul {
+	list-style:none;
+	}
+#footer li {
+	text-align: right;
+	color: white;
+	}
+	
+#footer p {
+	float: right; 
+	width: 180px; 
+	margin-top:45px;
+	text-align:left;
+	padding: 0 10px 55px 20px; 
+	font-size: .8em; color:white;
+	line-height:1.25;
+	overflow:hidden;
+	color:#333;
+	background: url(images/church.jpg) bottom no-repeat;
+	}
+	
+#footer #wrapAroundBlock {
+	display: inline-block;
+	float: left;
+	width: 45px; height: 40px;
+	tborder: solid 1px black;
+	}
+#footer a, #footer a:visited {color: inherit; text-decoration: none;}
+
+.imageBorder {
+	margin: 0 0 10px 0;
+	border: 1px solid #aaa;
+	border-top: 1px solid #ddd;
+	border-bottom: 3px inset #bbb;
+	padding: 6px;
+	}
+
+
+
+
+
+/*  styles for the About page */
+#topics {list-style:none; margin: 0 0 20px 0; padding: 0;}
+#topics li {
+	display: block;
+	float: left;
+	width: 120px; height: 100px;
+	padding: 10px 10px 0 10px;
+	margin: 0 5px 0 0;
+	color: white;
+	border: 4px solid #CCC;
+	border-top: 12px solid #ccc;
+	background-color:#09C;
+	cursor: pointer;
+	}
+
+#moreDetails li {
+	margin: 0 0 5px 0; 
+	color: black;}
+
+
+
+
+
+
+
+
+
+
+
+
+	
+/* styles for the testimonials page */
+
+.testimonialText, .testimonialAuthor {width: 600px}
+.testimonialAuthor {color:#06F; margin: -15px 0 30px 0; border-bottom: 1px solid #999;}
+
+
+/*  Slideshow gallery styling */
+
+#slideContainer, .filmstrip, .slideshowPhoto {width: 576px; height: 384px;}
+
+#slideContainer {
+	position: relative;
+	margin: -50px 0 0 0;
+	border: solid 1px black;
+	overflow:hidden;
+	}
+
+#slideContainer .filmstrip {
+	position: absolute;
+	display: none;
+	top:0; left: 0;
+	width: 1728px;
+	}
+	
+#slideContainer .slideshowPhoto {
+	display: block;
+	float: left;
+	}
+#bgControlButtonsContainer {
+	twidth: 70px;
+	margin: 10px auto 0 auto;
+	background-color:#09C;
+	display: none;
+	tborder: 1px solid green;
+	}
+
+#bgControlButtonsContainer a {
+	position:relative;
+	display:block;
+	line-height: 1;
+	width: 30px; height: 30px;
+	color:#666;
+	tborder: 1px solid red;
+	}
+	
+#bgGalleryMoveRightButton {float: right; padding-right: 55px; background:url(images/nextArrow.png) right no-repeat;}
+#bgGalleryMoveLeftButton {float: left; padding-left: 45px; background:url(images/previousArrow.png) left no-repeat;}
